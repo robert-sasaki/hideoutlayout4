@@ -1,11 +1,10 @@
 body {
 background-image: url("../images/bkg_1900x632_v2.jpg");
-background width: 100%;
 background-color: #2c495b;
 margin: 0 auto;
-background-repeat: no-repeat;
-
-
+background-repeat:no-repeat;
+background-size:contain;
+background-position:top;
 }
 
 .navbar {
@@ -50,16 +49,15 @@ color: #ffff80;
 background-image: url("../images/Background_Tile2.jpg");
 background-repeat: repeat;
 background-color: #2c495b;
-
 margin: 0 auto;
 display: flex;
+justify-content: space-around;
 
 }
 
 .contentbox1 {
 background-color: rgba(65, 89, 84,0.75);
 Width: 35%;
-margin-left: 10%;
 
 }
 
@@ -79,7 +77,6 @@ line-height: 150%;
 .contentbox2 {
 background-color: rgba(65, 89, 84,0.75);
 Width: 35%;
-margin-left: 10%;
 
 }
 
